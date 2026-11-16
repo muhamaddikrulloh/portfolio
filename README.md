@@ -1,50 +1,69 @@
 # Muhamad Dikrulloh
 
-### Web & mobile applications. Thoughtful interfaces. Functional systems.
+### Pengembang aplikasi web dan mobile
 
-A personal portfolio by Muhamad Dikrulloh, a junior web and mobile app developer based in Sukabumi, Indonesia. A place to explore the work, read the thinking behind it, and get in touch.
+Portfolio pribadi yang mempertemukan proyek, proses belajar, dan pendekatan saya dalam membangun aplikasi: fungsional, terstruktur, dan nyaman digunakan.
 
-**[Visit the live portfolio →](https://mdikrulloh.informatika24b.my.id/)**
+Berbasis di Sukabumi, Indonesia, saya berfokus pada pengembangan web dan mobile dengan perhatian pada hubungan antara antarmuka, fitur, dan arsitektur aplikasi.
 
-![The portfolio homepage, with interactive ASCII portrait and editorial typography](docs/showcase/hero.jpg)
+**[Kunjungi portfolio](https://mdikrulloh.informatika24b.my.id/)** · [Jelajahi proyek](https://mdikrulloh.informatika24b.my.id/projects) · [Lihat CV](https://mdikrulloh.informatika24b.my.id/cv)
 
-## Curiosity, made tangible
+![Halaman utama portfolio dengan potret ASCII interaktif dan tipografi editorial](docs/showcase/hero.jpg)
 
-The experience moves from an interactive portrait into a scrolling manifesto, a personal introduction, areas of practice, skills, and experience. Selected projects connect the visual presentation to a fuller archive of descriptions, technologies, and galleries.
+## Tentang portfolio
 
-The details matter: a portrait that responds to the pointer, a rotating certificate gallery, a resume preview with original-PDF download and print, and an interactive hanging ID card. English and Indonesian are available throughout, alongside keyboard interaction and reduced-motion support.
+Website ini menjadi ruang untuk mengenal karya dan cara saya bekerja. Presentasinya menggunakan nuansa gelap, tipografi tegas, serta aksen oranye, dengan interaksi yang menyatukan setiap bagian halaman.
 
-## Selected work
+Dari potret ASCII yang merespons kursor hingga galeri proyek, setiap bagian membawa pengunjung dari pengenalan singkat menuju detail karya. Konten tersedia dalam Bahasa Indonesia dan Inggris, dengan tata letak responsif, navigasi keyboard, serta dukungan preferensi pengurangan gerakan.
 
-Web applications, mobile apps, and interface concepts—presented with image reveals and a horizontally scrolling selection on desktop. The project archive provides the context behind each piece of work.
+## Proyek pilihan
 
-![Selected Projects in the live portfolio](docs/showcase/projects.jpg)
+Aplikasi web, aplikasi mobile, dan konsep antarmuka ditampilkan melalui kurasi proyek pada halaman utama. Di desktop, bagian ini menggunakan navigasi gulir horizontal; arsip proyek menyediakan deskripsi, teknologi yang digunakan, dan galeri gambar untuk penelusuran lebih lanjut.
 
-## Beyond the projects
+![Bagian proyek pilihan pada website produksi](docs/showcase/projects.jpg)
 
-Certificates open into a focused viewing experience. The resume has its own preview, while the contact section brings together public professional links and a draggable 3D ID card with a simulated ribbon.
+## Di dalam website
 
-| Certificates | Get in touch |
+| Bagian | Yang dapat dijelajahi |
 | --- | --- |
-| ![Certificate detail on the live portfolio](docs/showcase/certificate.jpg) | ![Contact section with the interactive 3D ID card](docs/showcase/contact.jpg) |
+| **Profil dan bidang pengembangan** | Perkenalan, pendekatan kerja, keterampilan, dan pengalaman. |
+| **Arsip proyek** | Daftar karya beserta konteks, teknologi, galeri, dan tautan repositori jika tersedia. |
+| **Sertifikat** | Galeri berputar dengan tampilan detail sertifikat. |
+| **CV** | Pratinjau dokumen, unduhan PDF asli, dan fungsi cetak. |
+| **Kontak** | Email, profil profesional, dan kartu identitas 3D yang dapat ditarik dengan simulasi tali. |
 
-## Built with
+### Sertifikat dan kontak
+
+| Detail sertifikat | Kartu identitas interaktif |
+| --- | --- |
+| ![Tampilan detail sertifikat dari website produksi](docs/showcase/certificate.jpg) | ![Bagian kontak dengan kartu identitas 3D dari website produksi](docs/showcase/contact.jpg) |
+
+## Teknologi
 
 **Laravel · Filament · Inertia · React · TypeScript · Vite**
 
-Laravel serves the application, public metadata, and initial semantic HTML. Filament manages portfolio content; Inertia connects the PHP backend to the React interface. GSAP and ScrollTrigger coordinate motion, Lenis handles smooth scrolling, and Three.js powers the ID card. Canvas rendering supports the portrait and image interactions; PDF.js supports document viewing and print workflows.
+- **Laravel dan MariaDB** menangani aplikasi, penyimpanan konten, metadata publik, dan HTML awal.
+- **Filament** menyediakan panel pengelolaan proyek, sertifikat, CV, dan informasi portfolio.
+- **Inertia, React, dan TypeScript** menghubungkan antarmuka interaktif dengan backend PHP.
+- **GSAP, ScrollTrigger, dan Lenis** mengatur animasi serta pengalaman gulir.
+- **Three.js dan Canvas** menghadirkan kartu identitas 3D, potret ASCII, dan interaksi visual.
+- **PDF.js** mendukung alur penayangan dokumen dan pencetakan CV.
 
-The frontend compiles to static assets. Production runs on PHP with MariaDB, without a Node.js server or SSR daemon. Typography uses Big Shoulders Display, Geist, and Geist Mono.
+Aset frontend dikompilasi menggunakan Vite. Deployment produksi berjalan dengan PHP tanpa server Node.js atau proses SSR terpisah. Identitas tipografi menggunakan Big Shoulders Display, Geist, dan Geist Mono.
 
-This repository contains the application source and build configuration. Private CMS records, uploaded documents, credentials, generated dependencies, and compiled deployment assets are intentionally not published. The live website shows the owner's published content; a fresh database starts with empty CMS collections.
+## Tentang repositori ini
 
-## Connect
+Repositori ini memuat kode sumber aplikasi, aset statis yang diperlukan, migrasi database, dan konfigurasi build. Kredensial, isi database produksi, dokumen unggahan CMS, dependensi hasil instalasi, serta aset hasil kompilasi tidak disertakan.
 
-- **Portfolio:** [mdikrulloh.informatika24b.my.id](https://mdikrulloh.informatika24b.my.id/)
+Konten pada website aktif dikelola melalui CMS. Instalasi dengan database baru dimulai tanpa data portfolio pribadi.
+
+## Terhubung
+
+- **Website:** [mdikrulloh.informatika24b.my.id](https://mdikrulloh.informatika24b.my.id/)
 - **GitHub:** [muhamaddikrulloh](https://github.com/muhamaddikrulloh)
 - **LinkedIn:** [Muhamad Dikrulloh](https://www.linkedin.com/in/muhamaddikrulloh)
 - **Email:** [muhamaddikrulloh@gmail.com](mailto:muhamaddikrulloh@gmail.com)
 
 ---
 
-All previews above are screenshots of the live production website—not mockups or local builds.
+Seluruh cuplikan tampilan di atas diambil langsung dari website produksi, bukan mockup atau hasil build lokal.
