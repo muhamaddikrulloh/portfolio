@@ -51,19 +51,9 @@ Aplikasi web, aplikasi mobile, dan konsep antarmuka ditampilkan melalui kurasi p
 
 Aset frontend dikompilasi menggunakan Vite. Deployment produksi berjalan dengan PHP tanpa server Node.js atau proses SSR terpisah. Identitas tipografi menggunakan Big Shoulders Display, Geist, dan Geist Mono.
 
-## Tentang repositori ini
-
-Repositori ini memuat kode sumber aplikasi, aset statis yang diperlukan, migrasi database, dan konfigurasi build. Kredensial, isi database produksi, dokumen unggahan CMS, dependensi hasil instalasi, serta aset hasil kompilasi tidak disertakan.
-
-Konten pada website aktif dikelola melalui CMS. Instalasi dengan database baru dimulai tanpa data portfolio pribadi.
-
 ## Terhubung
 
 - **Website:** [mdikrulloh.informatika24b.my.id](https://mdikrulloh.informatika24b.my.id/)
 - **GitHub:** [muhamaddikrulloh](https://github.com/muhamaddikrulloh)
 - **LinkedIn:** [Muhamad Dikrulloh](https://www.linkedin.com/in/muhamaddikrulloh)
 - **Email:** [muhamaddikrulloh@gmail.com](mailto:muhamaddikrulloh@gmail.com)
-
----
-
-Seluruh cuplikan tampilan di atas diambil langsung dari website produksi, bukan mockup atau hasil build lokal.
