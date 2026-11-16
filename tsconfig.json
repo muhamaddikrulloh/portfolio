@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "types": ["vite/client", "node"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "paths": {
+      "@/shims/*": ["./resources/js/shims/*"],
+      "@/*": ["./src/*"],
+      "next/navigation": ["./resources/js/shims/navigation.ts"],
+      "next/link": ["./resources/js/shims/link.tsx"],
+      "next/dynamic": ["./resources/js/shims/dynamic.tsx"],
+      "next/image": ["./resources/js/shims/image.tsx"]
+    }
+  },
+  "include": [
+    "resources/js/**/*.ts",
+    "resources/js/**/*.tsx",
+    "src/app/**/*.ts",
+    "src/app/**/*.tsx",
+    "src/app/**/*.mts",
+    "src/lib/cms-types.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "vendor",
+    "storage",
+    "deploy-arenhost",
+    "src/payload",
+    "src/migrations",
+    "src/app/(payload)",
+    "src/app/api",
+    "src/app/robots.ts",
+    "src/app/sitemap.ts",
+    "src/app/(frontend)/layout.tsx",
+    "src/app/(frontend)/page.tsx",
+    "src/app/(frontend)/projects/page.tsx",
+    "src/app/(frontend)/cv/page.tsx",
+    "src/lib/cms.ts"
+  ]
+}
